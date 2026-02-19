@@ -1,0 +1,45 @@
+html {
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}
+
+body {
+  margin = "0px"
+  padding = "0px"
+}
+
+.display {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 5px 5px 10px blue, 10px 10px red, 15px 15px green;
+}
+.num-input {
+    justify-content: center;
+    align-items: center;
+ }
+
+ #num1, #num2{
+    padding: 5px 5px 5px 5px;
+ }
+
+ .operators {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.result {
+    padding: 5px 15px 5px 15px;
+    margin-top: 10px;
+    background-color: blue;
+    border-radius: 20px
+}
+  
