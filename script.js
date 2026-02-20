@@ -16,3 +16,4 @@ if(operator === "+") {
 }
 
 document.getElementById("result").innerText = "Result :" + " " + result;
+}
