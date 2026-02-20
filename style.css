@@ -1,45 +1,59 @@
-html {
-    font-size: 16px;
-    background-color: black;
-    color: white;
-}
-
 body {
-  margin = "0px"
-  padding = "0px"
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    margin: 0;
+    padding: 0px;
+    color: #ffd700;
+    width: 100%;
+    height: 100vh;
+
 }
 
-.display {
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #1e1e1e;
-    padding: 20px;
-    border-radius: 10px;
-    border: 2px solid white;
-    box-shadow: 5px 5px 10px grey;
+    height: 90%;
+    width: 100%;
 }
-.num-input {
-    justify-content: center;
-    align-items: center;
- }
 
- #num1, #num2{
-    padding: 5px 5px 5px 5px;
- }
-
- .operators {
-    display: flex;
-    justify-content: center;
+.display {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    background-color: rgba(122, 122, 122, 0.131);
+    color: #ffd700;
+    border: solid 2px #ffd700;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px #fff;
     align-items: center;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
     gap: 10px;
 }
 
-.result {
-    padding: 5px 15px 5px 15px;
-    margin-top: 10px;
-    background-color: blue;
-    border-radius: 20px
+
+.num-input {
+    display: flex;
+    gap: 10px;
+    width: 100%;
 }
-  
+#num1, #num2 {
+    width: 100%;
+    padding: 10px;
+    border: solid 2px #ffd700;
+    border-radius: 10px;
+    background-color: rgba(122, 122, 122, 0.131);
+    color: #fff;
+}
+
+.result {
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 5px;
+    width: 90%;
+
+}
