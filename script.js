@@ -8,11 +8,11 @@ if(operator === "+") {
 } else if ( operator === "-") {
   result = num1 - num2;
 } else if ( operator === "*") {
-  
-} else if (operator === "/") {
   result = num1 * num2;
-} else if (operator === "%") {
+} else if (operator === "/") {
   result = num1 / num2;
+} else if (operator === "%") {
+  result = num1 % num2;
 }
 
-document.getElementById("result).text = "Result :" + " " + result;
+document.getElementById("result).innerText = "Result :" + " " + result;
